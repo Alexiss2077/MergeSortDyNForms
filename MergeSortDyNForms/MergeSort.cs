@@ -27,13 +27,11 @@ namespace MergeSortDyNForms     ///////////
                 if (left[i] < right[j])
                 {
                     myList[k] = left[i];
-                    //MoveCount++;
                     i++;
                 }
                 else
                 {
                     myList[k] = right[j];
-                    //MoveCount++;
                     j++;
                 }
 
@@ -44,7 +42,6 @@ namespace MergeSortDyNForms     ///////////
             while (i < left.Count)
             {
                 myList[k] = left[i];
-                //MoveCount++;
                 i++;
                 k++;
             }
@@ -53,7 +50,6 @@ namespace MergeSortDyNForms     ///////////
             while (j < right.Count)
             {
                 myList[k] = right[j];
-                //MoveCount++;
                 j++;
                 k++;
             }
@@ -143,7 +139,7 @@ namespace MergeSortDyNForms     ///////////
 
             for (int i = 1; i < myList.Count; i++)
             {
-               // ComparisonCount++;
+               
 
                 if (myList[i] >= myList[i - 1])
                 {
