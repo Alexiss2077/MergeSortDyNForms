@@ -8,16 +8,8 @@ namespace MergeSortDyNForms     ///////////
 {
     internal class MergeSort
     {
-        // Contadores de operaciones
-        public int MoveCount { get; set; }
-        public int ComparisonCount { get; set; }
 
-        public MergeSort()
-        {
-            MoveCount = 0;
-            ComparisonCount = 0; 
-        }
-
+    
         // =======================================================
         // MÉTODO MERGE 
         // =======================================================
